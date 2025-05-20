@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\birka\\source\\repos\\Evently\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\birka\\Desktop\\Yazılım Projeleri\\Evently\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\birka\\source\\repos\\Evently\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\birka\\Desktop\\Yazılım Projeleri\\Evently\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\birka\\source\\repos\\Evently\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\birka\\Desktop\\Yazılım Projeleri\\Evently\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\birka\\source\\repos\\Evently\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\birka\\Desktop\\Yazılım Projeleri\\Evently\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\birka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\birka\\source\\repos\\Evently\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\birka\\Desktop\\Yazılım Projeleri\\Evently\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

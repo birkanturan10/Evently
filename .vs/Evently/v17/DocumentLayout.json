@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\dataaccesslayer\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD20EB1-091B-489F-8E79-A0C3C2EB0243}|EntityLayer\\EntityLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\entitylayer\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD20EB1-091B-489F-8E79-A0C3C2EB0243}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD20EB1-091B-489F-8E79-A0C3C2EB0243}|EntityLayer\\EntityLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\entitylayer\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAD20EB1-091B-489F-8E79-A0C3C2EB0243}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventContext.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\EventContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EventContext.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\EventContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\EventContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:13:16.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\EntityLayer\\Category.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Category.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\EntityLayer\\Category.cs",
-              "RelativeToolTip": "EntityLayer\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:10:51.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\EntityLayer\\Event.cs",
-              "RelativeDocumentMoniker": "EntityLayer\\Event.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\EntityLayer\\Event.cs",
-              "RelativeToolTip": "EntityLayer\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:09:54.769Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

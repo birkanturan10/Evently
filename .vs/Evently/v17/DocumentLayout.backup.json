@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\businesslayer\\concrete\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\dataaccesslayer\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\businesslayer\\abstract\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Abstract\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Abstract\\IGenericRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Abstract\\IGenericRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:33:03.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Concrete\\EventManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\EventManager.cs",
+              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Concrete\\EventManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concrete\\EventManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:26:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Abstract\\IEventService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IEventService.cs",
+              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Abstract\\IEventService.cs",
+              "RelativeToolTip": "BusinessLayer\\Abstract\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:25:36.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

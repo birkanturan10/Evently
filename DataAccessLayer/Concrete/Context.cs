@@ -1,21 +1,14 @@
-﻿using EntityLayer;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using EntityLayer;
 
 namespace DataAccessLayer.Concrete
 {
     public class Context : DbContext
     {
-        public DbSet<Event> Events { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=LAPTOP-G13T04V9\\SQLEXPRESS;Database=EventlyDB;Trusted_Connection=True;");
         }
-    }
 
+        public DbSet<Event> Events { get; set; }
+    }
 }

@@ -1,8 +1,10 @@
 ﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,43 +12,46 @@ namespace DataAccessLayer.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly EventContext _context;
+        private readonly Context _context;
         private readonly DbSet<T> _dbSet;
 
-        public GenericRepository(EventContext context)
+        public GenericRepository(Context context)
         {
             _context = context;
-            _dbSet = context.Set<T>();
+            _dbSet = _context.Set<T>();
         }
 
-        public async Task<List<T>> GetAllAsync()
+        public void Insert(T t)
         {
-            return await _dbSet.ToListAsync();
+            _dbSet.Add(t);
+            _context.SaveChanges();
         }
 
-        public async Task<T> GetByIdAsync(int id)
+        public void Delete(T t)
         {
-            return await _dbSet.FindAsync(id);
+            _dbSet.Remove(t);
+            _context.SaveChanges();
         }
 
-        public async Task AddAsync(T entity)
+        public void Update(T t)
         {
-            await _dbSet.AddAsync(entity);
+            _dbSet.Update(t);
+            _context.SaveChanges();
         }
 
-        public void Update(T entity)
+        public T GetById(int id)
         {
-            _dbSet.Update(entity);
+            return _dbSet.Find(id);
         }
 
-        public void Delete(T entity)
+        public List<T> GetList()
         {
-            _dbSet.Remove(entity);
+            return _dbSet.ToList();
         }
 
-        public async Task SaveAsync()
+        public List<T> GetListAll(Expression<Func<T, bool>> filter)
         {
-            await _context.SaveChangesAsync();
+            return _dbSet.Where(filter).ToList();
         }
     }
 }

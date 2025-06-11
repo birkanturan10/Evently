@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\dataaccesslayer\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\businesslayer\\concrete\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\dataaccesslayer\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BBA3A56-D049-4C73-9D3A-8892314FD89A}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\businesslayer\\abstract\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27E37A77-4D74-4642-80C8-A8E5A951699C}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\Context.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Concrete\\Context.cs",
-              "RelativeToolTip": "DataAccessLayer\\Concrete\\Context.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T13:46:29.009Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Concrete\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Concrete\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Concrete\\GenericRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Concrete\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAjAAAAAAAAAA==",
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Controllers\\EventController.cs",
+              "RelativeToolTip": "UI\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T13:45:13.562Z",
+              "WhenOpened": "2025-06-11T09:27:06.76Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Abstract\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\DataAccessLayer\\Abstract\\IGenericRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Abstract\\IGenericRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T11:33:03.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventManager.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Concrete\\EventManager.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\EventManager.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Concrete\\EventManager.cs",
-              "RelativeToolTip": "BusinessLayer\\Concrete\\EventManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T11:26:36.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEventService.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Abstract\\IEventService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IEventService.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\BusinessLayer\\Abstract\\IEventService.cs",
-              "RelativeToolTip": "BusinessLayer\\Abstract\\IEventService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T11:25:36.71Z"
             }
           ]
         }

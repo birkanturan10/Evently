@@ -1,0 +1,27 @@
+﻿@model List<EntityLayer.Event>
+
+@{
+    ViewData["Title"] = "Etkinlik Listesi";
+}
+
+<h2>Etkinlik Listesi</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Etkinlik Adı</th>
+            <th>Tarih</th>
+            <th>Lokasyon</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Date.ToShortDateString()</td>
+                <td>@item.Location</td>
+            </tr>
+        }
+    </tbody>
+</table>

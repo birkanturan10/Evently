@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Event
+
+<h2>Yeni Etkinlik Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Başlık</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div>
+        <label>Tarih</label>
+        <input asp-for="Date" type="date" class="form-control" />
+    </div>
+    <div>
+        <label>Açıklama</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

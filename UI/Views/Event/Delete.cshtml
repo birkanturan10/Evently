@@ -1,0 +1,21 @@
+﻿@model EntityLayer.Event
+
+@{
+    ViewData["Title"] = "Etkinlik Sil";
+}
+
+<h2>Etkinlik Sil</h2>
+
+<h3>Silmek istediğinize emin misiniz?</h3>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+    <p><strong>Tarih:</strong> @Model.Date.ToShortDateString()</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Evet, Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

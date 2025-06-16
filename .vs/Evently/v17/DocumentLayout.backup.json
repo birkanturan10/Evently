@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|solutionrelative:ui\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB5EE988-9078-473C-83A0-998AFA0EA9B9}|UI\\UI.csproj|c:\\users\\birka\\desktop\\yaz\u0131l\u0131m projeleri\\evently\\ui\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,78 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T08:02:52.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Delete.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Event\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Delete.cshtml",
-              "RelativeToolTip": "UI\\Views\\Event\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:54:46.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Edit.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Event\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Edit.cshtml",
-              "RelativeToolTip": "UI\\Views\\Event\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:52:04.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Index.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Event\\Index.cshtml",
               "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:50:30.881Z"
+              "WhenOpened": "2025-06-16T14:58:50.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Create.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Event\\Create.cshtml",
               "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Create.cshtml",
               "RelativeToolTip": "UI\\Views\\Event\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:48:36.176Z"
+              "WhenOpened": "2025-06-12T07:48:36.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\EventController.cs",
               "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Controllers\\EventController.cs",
               "RelativeToolTip": "UI\\Controllers\\EventController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T09:27:06.76Z",
               "EditorCaption": ""

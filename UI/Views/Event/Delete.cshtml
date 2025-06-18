@@ -4,18 +4,20 @@
     ViewData["Title"] = "Etkinlik Sil";
 }
 
-<h2>Etkinlik Sil</h2>
-
-<h3>Silmek istediğinize emin misiniz?</h3>
-
-<div>
-    <h4>@Model.Title</h4>
-    <p>@Model.Description</p>
-    <p><strong>Tarih:</strong> @Model.Date.ToShortDateString()</p>
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="alert alert-danger mt-5 shadow-sm text-center">
+            <i class="bi bi-exclamation-triangle-fill display-4 mb-3"></i>
+            <h2 class="mb-3">Etkinlik Sil</h2>
+            <h4 class="mb-2">@Model.Title</h4>
+            <p>@Model.Description</p>
+            <p><strong>Tarih:</strong> @Model.Date.ToShortDateString()</p>
+            <h5 class="mb-4">Silmek istediğinize emin misiniz?</h5>
+            <form asp-action="DeleteConfirmed" method="post" class="d-inline">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn btn-danger px-4 me-2"><i class="bi bi-trash"></i> Evet, Sil</button>
+                <a asp-action="Index" class="btn btn-secondary px-4">İptal</a>
+            </form>
+        </div>
+    </div>
 </div>
-
-<form asp-action="DeleteConfirmed" method="post">
-    <input type="hidden" name="id" value="@Model.Id" />
-    <button type="submit" class="btn btn-danger">Evet, Sil</button>
-    <a asp-action="Index" class="btn btn-secondary">İptal</a>
-</form>

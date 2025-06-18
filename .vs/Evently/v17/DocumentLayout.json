@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "UI\\Views\\Event\\Index.cshtml",
               "ToolTip": "C:\\Users\\birka\\Desktop\\Yaz\u0131l\u0131m Projeleri\\Evently\\UI\\Views\\Event\\Index.cshtml",
               "RelativeToolTip": "UI\\Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T14:58:50.339Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "UI\\Views\\Event\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T07:48:36.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T07:48:36.176Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "UI\\Controllers\\EventController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:27:06.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T09:27:06.76Z"
             }
           ]
         }

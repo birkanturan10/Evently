@@ -4,37 +4,43 @@
     ViewData["Title"] = "Yeni Etkinlik Ekle";
 }
 
-<h2>Yeni Etkinlik Ekle</h2>
-
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label for="Title">Etkinlik Başlığı</label>
-        <input type="text" class="form-control" id="Title" name="Title" required />
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm mt-4">
+            <div class="card-header bg-primary text-white text-center">
+                <h2 class="mb-0">Yeni Etkinlik Ekle</h2>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div class="mb-3">
+                        <label for="Title" class="form-label">Etkinlik Başlığı</label>
+                        <input type="text" class="form-control" id="Title" name="Title" placeholder="Örn: Yazılım Konferansı" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Description" class="form-label">Açıklama</label>
+                        <textarea class="form-control" id="Description" name="Description" rows="4" placeholder="Etkinlik hakkında bilgi..." required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Date" class="form-label">Tarih</label>
+                        <input type="date" class="form-control" id="Date" name="Date" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Location" class="form-label">Konum</label>
+                        <input type="text" class="form-control" id="Location" name="Location" placeholder="Etkinlik yeri..." required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="CategoryId" class="form-label">Kategori</label>
+                        <select class="form-select" id="CategoryId" name="CategoryId" required>
+                            <option value="1">Konser</option>
+                            <!-- Diğer kategoriler eklenebilir -->
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary px-4"><i class="bi bi-check-circle me-2"></i>Kaydet</button>
+                        <a asp-action="Index" class="btn btn-secondary px-4">İptal</a>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <div class="form-group">
-        <label for="Description">Açıklama</label>
-        <textarea class="form-control" id="Description" name="Description" rows="4" required></textarea>
-    </div>
-
-    <div class="form-group">
-        <label for="Date">Tarih</label>
-        <input type="date" class="form-control" id="Date" name="Date" required />
-    </div>
-
-    <div class="form-group">
-        <label for="Location">Konum</label>
-        <input type="text" class="form-control" id="Location" name="Location" required />
-    </div>
-
-    <div class="form-group">
-        <label for="CategoryId">Kategori</label>
-        <select class="form-control" id="CategoryId" name="CategoryId" required>
-            <option value="1">Konser</option>
-            <!-- Gerekirse başka sabit kategoriler buraya eklenebilir -->
-        </select>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Kaydet</button>
-    <a asp-action="Index" class="btn btn-secondary">İptal</a>
-</form>
+</div>

@@ -4,32 +4,30 @@
     ViewData["Title"] = "Etkinlik Listesi";
 }
 
-<h2>Etkinlik Listesi</h2>
-
-<p>
-    <a asp-action="Create" class="btn btn-primary">Yeni Etkinlik Ekle</a>
-</p>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Başlık</th>
-            <th>Açıklama</th>
-            <th>Tarih</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
+<div class="d-flex flex-column align-items-center mt-5 mb-4">
+    <h2 class="fw-bold text-center">Etkinlik Listesi</h2>
+    <a asp-action="Create" class="btn btn-primary btn-lg shadow-sm mt-3"><i class="bi bi-plus-circle me-2"></i>Yeni Etkinlik Ekle</a>
+</div>
+@if (Model.Count == 0)
+{
+    <div class="alert alert-info">Henüz etkinlik eklenmemiş.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@item.Title</td>
-                <td>@item.Description</td>
-                <td>@item.Date.ToShortDateString()</td>
-                <td>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
-                </td>
-            </tr>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@item.Description</p>
+                        <p class="card-text"><small class="text-muted">@item.Date.ToShortDateString()</small></p>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm me-2"><i class="bi bi-pencil-square"></i> Güncelle</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Sil</a>
+                    </div>
+                </div>
+            </div>
         }
-    </tbody>
-</table>
+    </div>
+}
